@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!------ page1 ------->
+    <section class="page1" style="background-image: url('img/bg1.png');">
+        <!-- 달 이미지 -->
+        <img src="/img/moon.png" id="moon">
+
+        <!-- 그림자 영상 -->
+        <video id="shadow-video" src="/mp4/shadow.mp4" autoplay loop muted></video>
+        <h1 id="animated-text">Full moon 처럼 떠오를 준비가 된<br>
+        Full stack 개발자 박지훈의 Portfolio</h1>
+        <h1 id="typing-text"></h1>
+        <button class="down-btn" id="toPage2">▼</button>
+    </section>
+
+    <!------ page2 ------->
+    <section class="page2" style="background-image: url('img/bg1.png');">
+        <h2 class="section-title">Introduce</h2>
+        <div class="container2">
+            <div class="slide">
+                <img src="img/me1.png" class="active" alt="박지훈 증명사진">
+                <img src="img/me2.png" alt="박지훈 짐꾼사진">
+                <img src="img/me3.png" alt="박지훈 등산사진">
+            </div>
+
+            <div class="self-introduce">
+               <p>군대 전역 후, 정신차리고 대학을 진학하여<br>
+                신소재과를 전공하고, CAD(2D/3D)를 이용한<br>
+                철제구조물 설계와 제품인증 등을 주로 해왔습니다.
+                </p>
+                <p>지금까지 해오던 도면작업은 유한한 자재를 이용하여, <br>
+                 낭비(RAM)를 줄이고 설계도를 작성하여 제작(Build)<br>
+                 하여 실행함과 실시간 소통은 그 자체가 컴퓨터 언어를<br>
+                 사용하는 것과 “일맥상통” 하다고 볼 수 있습니다.
+                </p>
+                <h3>죽을 고비를 겪고도 바로 회사로 돌아가는 정신력.<br>
+                사원으로 다시 시작해서 배우는 겸손한 자세.<br>
+                새로운 직업을 향한 용기와 결단력.
+                </h3>
+                <h4>기존 MZ세대와 다릅니다.
+                    <br>늦바람이 얼마나 무서운지 보여드리겠습니다.</h4>
+            </div>
+            </div>
+            <div class="carrer-grid">
+                <div class="carrer-item">
+                    <h3>2017.02<br>~2020.03</h3>
+                    <span class="label ad-lm">제조업</span>
+                    <p>주성엔지니어링(주)<br>기술개발부 사원</p>
+                </div>
+                <div class="carrer-item">
+                    <h3>2020.04<br>~2020.12</h3>
+                    <span class="label ad-lm">제조업</span>
+                    <p>(주)ENP<br>기술개발부 대리</p>
+                </div>
+                <div class="carrer-item">
+                    <h3>2021.02<br>~2021.11</h3>
+                    <span class="label ad-lm">제조업</span>
+                    <p>주성엔지니어링(주)<br>기술개발부 과장</p>
+                </div>
+                <div class="carrer-item">
+                    <h3>2021.12<br>~2023.05</h3>
+                    <span class="label ad-lm">제조업</span>
+                    <p>(주)세운산업<br>기술개발부 차장</p>
+                </div>
+                <div class="carrer-item">
+                    <h3>2023.11<br>~2024.06</h3>
+                    <span class="label ad-lm">토목설계</span>
+                    <p>(주)성민ENC<br>토목부 사원</p>
+                </div>
+                <div class="carrer-item">
+                    <h3>2024.10<br>~</h3>
+                    <span class="label ad-challenge">Developer</span>
+                    <p>라인컴퓨터아트학원<br>Front/back-end 과정</p>
+                </div>
+            </div>
+            <div class="arrow-container">
+                <a href="#" class="arrow-item span-3" data-modal="modal1">계열사(서류상 이직)</a>
+                <a href="#" class="arrow-item" data-modal="modal2">이직</a>
+                <a href="#" class="arrow-item" data-modal="modal3">업종변경</a>
+                <a href="#" class="arrow-item" data-modal="modal4">Challenge</a>
+            </div>
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>계열사(서류상 이직)</h2>
+                    <p>정부조달우수제품 및 K마크 인증으로인한<br>
+                        계열사 내에서의 서류상 이직입니다.</p>
+                    <p>2020.12월에 출장중 고속도로에서 교통사고로인하여<br>
+                    2달 휴식을 가지고 다시 회사로 복귀하였습니다.</p>
+                </div>
+            </div>
+        
+            <div id="modal2" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>이직</h2>
+                    <p>동종업계 스카웃으로 이직하였습니다.</p>
+                </div>
+            </div>
+        
+            <div id="modal3" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>업종변경</h2>
+                    <p>잦은 근무지변경으로, 토목설계회사로 업종변경을 했으나</p>
+                    <p>2024년 2월말 측량중 혈관박리로 인한 급성뇌경색으로<br>
+                      입원하였습니다. 편마비를 이겨내고 1달후에 복귀하였으나 <br>
+                      건강문제로 인한 퇴사하였습니다.</p>
+                </div>
+            </div>
+        
+            <div id="modal4" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Challenge</h2>
+                    <p>새로운 개발자 인생으로 도전중</p>
+                </div>
+            </div>
+            <button class="down-btn" id="toPage3">▼</button>
+    </section>
+
+    <!------ page3 ------->
+    <section class="page3" style="background-image: url('img/bg2.png');">
+        <h2 class="section-title">Portfolio</h2> 
+        <div class="portfolio-container">
+            <div class="portfolio-card">
+                <a href="https://hunix2.github.io/pleos25/" target="_blank">
+                    <div class="card-front">
+                        <img src="img/project1.png" alt="Project 1">
+                        <h3>Pleos25</h3>
+                    </div>
+                    <div class="card-back">
+                        <h3>HTML, CSS, JavaScript</h3>
+                        <p>기능구현 (navbar scroll event,<br>
+                            top move btn, 반응형 등)<br>
+                            원작의 디자인을 최대한 재현</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="portfolio-card">
+                <a href="https://hunix2.github.io/nline/" target="_blank">
+                    <div class="card-front">
+                        <img src="img/project2.png" alt="Project 2">
+                        <h3>N Line</h3>
+                    </div>
+                    <div class="card-back">
+                        <h3>React + Vite, SCSS</h3>
+                        <p>Carousel 기능을 응용한 <br>
+                            Configurator,Introduce page 구현</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="portfolio-card">
+                <a href="http://kcw0827.dothome.co.kr/smokingjoe/info.html" target="_blank">
+                    <div class="card-front">
+                        <img src="img/project3.png" alt="Project 3">
+                        <h3>Haeundae</h3>
+                    </div>
+                    <div class="card-back">
+                        <h3>HTML, CSS, JavaScript</h3>
+                        <p>Team project중 API page<br>
+                            공공API를 이용한 일기예보<br>
+                        KAKAO MAP API를 이용한 교통정보</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="portfolio-card">
+                <a href="#" target="_blank">
+                    <div class="card-front">
+                        <img src="img/project4.png" alt="Project 4">
+                        <h3>Project 4</h3>
+                    </div>
+                    <div class="card-back">
+                        <h3>준비중</h3>
+                        <p>준비중</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="portfolio-card">
+                <a href="#" target="_blank">
+                    <div class="card-front">
+                        <img src="img/project5.png" alt="Project 5">
+                        <h3>Project 5</h3>
+                    </div>
+                    <div class="card-back">
+                        <h3>준비중</h3>
+                        <p>중비중</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="portfolio-card">
+                <a href="#" target="_blank">
+                    <div class="card-front">
+                        <img src="img/project6.png" alt="Project 6">
+                        <h3>Project 6</h3>
+                    </div>
+                    <div class="card-back">
+                        <h3>Python</h3>
+                        <p>준비중</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <button class="top-btn" id="toTop">▲</button>
+    </section>
+   
+    <script src="js/index.js" defer></script>
+</body>
+
+</html>
